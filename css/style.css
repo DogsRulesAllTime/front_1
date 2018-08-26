@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center__screen {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    width: 1366px;
+    height: 70px;
+    text-align: center;
+}
+
+.header__margin {
+    margin: 10px 15px;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 50px;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+}
+
+.btn_login {
+    color: white;
+    width: 163px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #e73741;
+    line-height: 50px;
+    font-size: 18px;
+    float: right;
+}
+
+.front {
+    background-image: url('../img/front__bg.png');
+    background-position: 0px -65px;
+    background-repeat: no-repeat;
+    width: 1366px;
+    height: 700px;
+}
+
+.front__title {
+    width: 597px;
+    height: 90px;
+    padding-top: 269px;
+    color: #000000;
+    font-family: "Fira Sans Medium";
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.front__text {
+    color: #000000;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.cards {
+    margin-top: 30px;
+    width: 1366px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.cards__card {
+    width: 425px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.cards__card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.cards__card_img {
+    background-image: url('../img/item__picture.png');
+    height: 200px;
+    width: 425px;
+}
+
+.cards__card_title,
+.cards__card_text {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.cards__card_title {
+    color: #000000;
+    font-family: "Fira Sans Medium";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cards__card_text {
+    color: #000000;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.cards__card_date {
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 100px;
+    padding-bottom: 7px;
+    height: 30px;
+    color: #bdbdbd;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
