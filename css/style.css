@@ -1,3 +1,5 @@
+/* @import '../plugins/jquery.fancybox.css'; */
+
 * {
     padding: 0;
     margin: 0;
@@ -140,13 +142,24 @@
     font-weight: 500;
     padding-bottom: 35px;
 }
-.galery__row{
+/* .galery__row,.imglist{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+} */
+.galery a{
+    padding-left: 15px;
+    padding-right: 15px; 
 }
-.galery__row_item{
+/* .galery__row_item{
     width: 425px;
     height: 200px;
     background-image: url('../img/picture.png');
+} */
+
+.slick-arrow{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
 }
